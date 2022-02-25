@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+/* ======= Background ======== */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.75)),url(./images/pexels-pixabay-39284.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ========= Nav ============ */
+nav {
+    height: 4.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    color: #EBEDF2;
+    font-size: 1.5vw;
+    flex-wrap: nowrap;
+}
+
+.logo span {
+    color: #6E30F2;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 2vw;
+    
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6E30F2;
+    font-size: 1.5vw;
+}
+
+ul li a:hover {
+    color: #ACB0F2;
+}
+
+ul li a:active {
+    color: black;
+}
+
+/* ======= Main ========= for all pages */
+
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.description, .knowledge, .salary, .training {
+    width: 70vw;
+    padding: 3rem;
+    height: 70vh;
+    background-color: #ACB0F2;
+    border-radius: 25px;
+    
+}
+
+.title {
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #6E30F2;
+    padding-bottom: 0.5rem;
+    font-size: 1.7vw;
+}
+
+.description p,  .knowledge p, .salary p, .training p{
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.5vw;
+}
+
+/* =====Job Description image */
+.description img, .knowledge img, .salary img, .training img {
+    height: 50%;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    
+}
+
+/* =====Salary ======== */
+.salary a {
+   color: rgb(19, 44, 189); 
+   
+   
+   
+}
+
